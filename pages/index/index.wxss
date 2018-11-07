@@ -1,0 +1,21 @@
+ /* 750rpx = 375px * 2rpx/1px */
+.swiper-box{
+  height: 562rpx;
+}
+.image-swiper image{
+  width: 100%;
+  height: 562rpx;
+}
+.pro-scroll{
+  height: 88rpx;
+  white-space: nowrap;
+}
+.pro-scroll view{
+  width: 160rpx;
+  display: inline-block;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #333;
+}

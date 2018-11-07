@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="page-container">
+  <swiper class="swiper-box" indicator-dots indicator-color="#EDECE8" autoplay indicator-active-color="#fff" circular>
+    <block wx:for="{{imageList}}" wx:key="{{index}}">
+      <swiper-item class="image-swiper">
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+    <scroll-view class="pro-scroll" scroll-x>
+      <view id="1">全部</view>
+      <view id="2">上装</view>
+      <view id="3">裤装</view>
+      <view id="4">家具内衣</view>
+      <view id="5">特价区</view>
+      <view id="6">裙装</view>
+      <view id="7">套装</view>
+      <view id="8">外套</view>
+      <view id="9">秒杀</view>
+      <view id="10">内裤</view>
+      <view id="11">袜子</view>
+      <view id="12">鞋</view>
+    </scroll-view>
+</view>
